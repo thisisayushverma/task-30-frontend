@@ -13,7 +13,7 @@ function App() {
       alert("Please fill all the fields");
       return;
     }
-    await fetch('http://localhost:4000/submit', {
+    await fetch('https://task-30-backend-seven.vercel.app/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
